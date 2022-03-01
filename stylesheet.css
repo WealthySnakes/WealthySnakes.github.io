@@ -1,0 +1,52 @@
+
+@import url('http://fonts.cdnfonts.com/css/vertigo-brk');
+
+.rainbow-text {
+    background-image: linear-gradient(to left, yellow, orange, violet, green, green);
+    background-clip: padding-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 65px;
+    padding: 25px;
+    margin-top: 175px;
+    text-align: right;
+    font-family: 'Vertigo Upright 2 BRK';
+
+
+}
+
+body {
+    background-color: black;
+    color: azure;
+}
+
+
+.colupper {
+   
+    padding: 20px;
+} 
+
+.customrow {
+    height: 200px;
+}
+.customrow1 {margin-top:20px;
+    height: 200px;
+}
+
+.coldim {
+    height: 500px;
+}
+
+#smallimages {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+}
+
+.with-conic-gradient {
+    border-style: solid;
+    border-width: 10px;
+    border-image: radial-gradient( yellow, green,orange,green,magenta) 1;
+  }
+  
+ 
